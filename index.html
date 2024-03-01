@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mērvienības</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .large {font-size: 20px;}
+            form{background-color:#DCDC00}
+            body{
+                    background-image:url("images/cipari.jpg");
+                    background-repeat: repeat;
+                    background-size: 8%;
+                }    
+        </style>
+    </head>
+    <body>
+        <h1>Informācijas daudzuma mērvienības</h1>
+        <form>
+            <p class="large"> <input type="text" name="t1"> GB=</p>
+            <p class="large"> <input value="Izteikt Megabaitos" name="MB" onclick="t2.value=t1.value*1000" type="button"> <input type="text" name="t2" > MB</p>
+            <p class="large"> <input value="Izteikt Mibibaitos" name="MiB" onclick="t3.value=t1.value*1000*0.9536" type="button"> <input type="text" name="t3"> MiB</p>
+        </form>
+    </body>
+</html>
